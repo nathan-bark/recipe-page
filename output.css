@@ -193,6 +193,9 @@
   .static {
     position: static;
   }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
+  }
   .container {
     width: 100%;
     @media (width >= 31.25rem) {
@@ -316,6 +319,9 @@
   }
   .pl-8 {
     padding-left: calc(var(--spacing) * 8);
+  }
+  .text-center {
+    text-align: center;
   }
   .text-left {
     text-align: left;
@@ -441,6 +447,11 @@
       font-size: var(--text-preset-1);
       line-height: var(--tw-leading, var(--text-preset-1--line-height));
       letter-spacing: var(--tw-tracking, var(--text-preset-1--letter-spacing));
+    }
+  }
+  .lg\:max-w-\[46rem\] {
+    @media (width >= 64rem) {
+      max-width: 46rem;
     }
   }
 }
