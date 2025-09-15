@@ -35,7 +35,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### What I learned
 
-Working on this project reinforced my understanding of semantic HTML. I focused on using appropriate tags like <main>, <section>, <ul>, <ol>, and <table> to give the content a logical structure, which is crucial for accessibility and SEO.
+Working on this project reinforced my understanding of semantic HTML. I focused on using appropriate tags like `<main>, <section>, <ul>, <ol>`, and `<table>` to give the content a logical structure, which is crucial for accessibility and SEO.
 
 I also gained more experience with Tailwind CSS. I learned to efficiently build a complex layout directly in the HTML using utility classes, which significantly sped up the styling process. I particularly enjoyed implementing responsive design with Tailwind's built-in breakpoints, like tablet:flex and tablet:py-32, to create a seamless experience across different devices.
 
